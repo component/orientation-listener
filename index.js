@@ -50,7 +50,7 @@ Listener.prototype.orientation = function(){
  */
 
 Listener.prototype.onchange = function(){
-  this.emit('change', this.orientation(), o);
+  this.emit('change', this.orientation(), window.orientation);
 };
 
 /**
