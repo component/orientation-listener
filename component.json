@@ -1,0 +1,22 @@
+{
+  "name": "orientation-change",
+  "repo": "component/orientation-change",
+  "description": "Listen for device orientation changes",
+  "version": "0.0.1",
+  "keywords": [
+    "orientation",
+    "device",
+    "iphone",
+    "mobile"
+  ],
+  "dependencies": {
+    "component/event": "0.1.0",
+    "component/emitter": "1.0.0"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
