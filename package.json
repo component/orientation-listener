@@ -10,13 +10,14 @@
     "mobile"
   ],
   "dependencies": {
-    "component/event": "0.1.0",
-    "component/emitter": "1.0.0"
+    "event-component": "0.1.0",
+    "emitter-component": "1.0.0"
   },
-  "development": {},
   "license": "MIT",
   "main": "index.js",
-  "scripts": [
-    "index.js"
-  ]
+  "component": {
+    "scripts": {
+      "orientation-listener/index.js": "index.js"
+    }
+  }
 }

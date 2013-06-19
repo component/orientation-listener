@@ -1,5 +1,5 @@
 
-# orientation-change
+# orientation-listener
 
   Listen for device orientation changes.
 
@@ -7,7 +7,7 @@
 
   Install with [component(1)](http://component.io):
 
-    $ component install component/orientation-change
+    $ component install component/orientation-listener
 
 ## Example
 
