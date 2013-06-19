@@ -2,7 +2,7 @@
   "name": "orientation-listener",
   "repo": "component/orientation-listener",
   "description": "Listen for device orientation changes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "orientation",
     "device",
