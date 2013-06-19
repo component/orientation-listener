@@ -4,7 +4,7 @@
  */
 
 var Emitter = require('emitter');
-var event = require('event');
+var events = require('event');
 
 /**
  * Expose `Listener`.
