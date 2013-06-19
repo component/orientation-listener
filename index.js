@@ -25,6 +25,12 @@ function Listener(fn) {
 }
 
 /**
+ * Mixin emitter.
+ */
+
+Emitter(Listener.prototype);
+
+/**
  * Return the orientation string.
  *
  * @return {String}
