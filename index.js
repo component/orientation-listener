@@ -34,7 +34,7 @@ Emitter(Listener.prototype);
  * Return the orientation string.
  *
  * @return {String}
- * @api private
+ * @api public
  */
 
 Listener.prototype.orientation = function(){

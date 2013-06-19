@@ -17,6 +17,10 @@
 
   Initialize a new Listener.
 
+### Listener.orientation()
+
+  Return the orientation type, "landscape" or "portrait".
+
 ### Listener.unbind()
 
   Unbind listeners.
