@@ -13,17 +13,6 @@ var event = require('event');
 module.exports = Listener;
 
 /**
- * Supported orientations.
- */
-
-var orientations = {
-  0: 'portrait',
-  90: 'landscape',
-  -90: 'landscape',
-  180: 'portrait'
-};
-
-/**
  * Initialize a new Listener.
  *
  * @api public
@@ -36,15 +25,26 @@ function Listener(fn) {
 }
 
 /**
+ * Return the orientation string.
+ *
+ * @return {String}
+ * @api private
+ */
+
+Listener.prototype.orientation = function(){
+  var o = window.orientation;
+  if (0 == o || 180 == o) return 'portrait';
+  return 'landscape';
+};
+
+/**
  * Handle change.
  *
  * @api private
  */
 
 Listener.prototype.onchange = function(){
-  var o = window.orientation;
-  this.orientation = orientations[o];
-  this.emit('change', this.orientation, o);
+  this.emit('change', this.orientation(), o);
 };
 
 /**
