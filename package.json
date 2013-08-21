@@ -19,5 +19,9 @@
     "scripts": {
       "orientation-listener/index.js": "index.js"
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/component/orientation-listener.git"
   }
 }
