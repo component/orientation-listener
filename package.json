@@ -10,8 +10,8 @@
     "mobile"
   ],
   "dependencies": {
-    "event-component": "0.1.0",
-    "emitter-component": "1.0.0"
+    "component-event": "0.1.4",
+    "component-emitter": "1.2.0"
   },
   "license": "MIT",
   "main": "index.js",

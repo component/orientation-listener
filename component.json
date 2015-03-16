@@ -10,8 +10,8 @@
     "mobile"
   ],
   "dependencies": {
-    "component/event": "0.1.0",
-    "component/emitter": "1.0.0"
+    "component/event": "0.1.4",
+    "component/emitter": "1.2.0"
   },
   "development": {},
   "license": "MIT",
