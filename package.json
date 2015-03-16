@@ -13,6 +13,10 @@
     "component-event": "0.1.4",
     "component-emitter": "1.2.0"
   },
+  "browser": {
+    "event": "component-event",
+    "emitter": "component-emitter"
+  },
   "license": "MIT",
   "main": "index.js",
   "component": {
