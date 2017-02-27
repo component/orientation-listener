@@ -39,8 +39,19 @@ Emitter(Listener.prototype);
 
 Listener.prototype.orientation = function(){
   var o = window.orientation;
-  if (0 == o || 180 == o) return 'portrait';
+  if (0 <= o && 180 >= o) return 'portrait';
   return 'landscape';
+};
+
+/**
+ * Return the current orientation value in degrees.
+ *
+ * @return {Number}
+ * @api public
+ */
+
+Listener.prototype.orientationValue = function() {
+  return window.orientation;
 };
 
 /**
