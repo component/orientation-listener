@@ -39,9 +39,10 @@ Emitter(Listener.prototype);
 
 Listener.prototype.orientation = function(){
   var o = window.orientation;
-  if (0 == o || 180 == o) return 'portrait';
+  if (0 <= o && 180 >= o) return 'portrait';
   return 'landscape';
 };
+
 
 /**
  * Handle change.
