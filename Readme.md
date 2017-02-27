@@ -11,6 +11,17 @@
 
 ## Example
 
+  ```javascript
+  import Listener from 'orientation-listener';
+
+  const orientationCallbackFn = function orientationCallbackFn(orientation) {
+    console.log('orientation: ', orientation);
+  };
+
+  const orientationChangeListener = new Listener();
+  orientationChangeListener.on('change', orientationCallbackFn)
+  ```
+
 ## API
 
 ### Listener()
