@@ -43,6 +43,16 @@ Listener.prototype.orientation = function(){
   return 'landscape';
 };
 
+/**
+ * Return the current orientation value in degrees.
+ *
+ * @return {Number}
+ * @api public
+ */
+
+Listener.prototype.orientationValue = function() {
+  return window.orientation;
+};
 
 /**
  * Handle change.
